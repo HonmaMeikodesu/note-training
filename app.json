@@ -4,11 +4,8 @@
     "slug": "note-train",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
       "backgroundColor": "#121214"
     },
     "assetBundlePatterns": [
@@ -18,13 +15,13 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#121214"
-      }
+      "package": "com.notetrain.app"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "527b0edb-5bae-4140-8241-f632400c3936"
+      }
     }
   }
 }
